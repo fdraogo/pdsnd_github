@@ -23,7 +23,7 @@ def get_filters():
          break
       else:
       # Requesting that "Invalid Input" be returned if not the city listed.
-         print("Invalid Input")
+         print("Please choose a valid city name")
     time_frame = input("\nWould you like to filter the data by month, day or none\n").lower()
     month = 'all'
     day = 'all'
