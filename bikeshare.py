@@ -43,7 +43,7 @@ def get_filters():
           if day in days:
             break
           else:
-            print("Invalid response. Please enter enteger values from 1 to 7")
+            print("Invalid response. Only numeric characters accepted")
     print('-'*40)
     return city, month, day
 
